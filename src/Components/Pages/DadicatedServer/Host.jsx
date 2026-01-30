@@ -10,14 +10,14 @@ function Host() {
                     <p className='mt-4 max-w-2xl'>Easily install and manage your ARK server's Steam Workshop mods (in one click!) with our easy-to-use management interface.</p>
                 </div>
                 <div className="mt-8 grid grid-cols-4 gap-3">
-                    <FeturesBox img={'./images/pages/feature_icon_1.webp'} title={'Instant Server Setup'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
-                    <FeturesBox img={'./images/pages/feature_icon_2.webp'} title={'DDoS Protection'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
-                    <FeturesBox img={'./images/pages/feature_icon_3.webp'} title={'24/7-365 Support'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
-                    <FeturesBox img={'./images/pages/feature_icon_4.webp'} title={'Modpack Support'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
+                    <FeturesBox img={'/images/pages/feature_icon_1.webp'} title={'Instant Server Setup'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
+                    <FeturesBox img={'/images/pages/feature_icon_2.webp'} title={'DDoS Protection'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
+                    <FeturesBox img={'/images/pages/feature_icon_3.webp'} title={'24/7-365 Support'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
+                    <FeturesBox img={'/images/pages/feature_icon_4.webp'} title={'Modpack Support'} text={'Our Minecraft hosting plans include automatic modpack installation. It’s easy to install'} />
                 </div>
                 <div className="mt-5">
                     <div className="relative border border-neutral-600 rounded-2xl h-83">
-                        <img src="./images/pages/gdf_bg.webp" alt="" className='h-82.5 w-full' />
+                        <img src="/images/pages/gdf_bg.webp" alt="" className='h-82.5 w-full' />
                         <div className="absolute inset-0 p-8 flex flex-col justify-center gap-4">
                             <h1 className='text-5xl font-bold'>High Performance Hardware</h1>
                             <p>Easily install and manage your ARK server's Steam Workshop mods (in one click!) with our easy-to-use management interface.</p>

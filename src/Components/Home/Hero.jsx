@@ -23,18 +23,18 @@ function Hero() {
                 <section className="grid grid-cols-3 h-[100vh] mt-15 mx-30">
                     <div className="col-span-2 bg-dark h-80 p-6 pt-8 text-white flex">
                         <div>
-                            <img src="./images/v_card_icon_1.webp" alt="" className="h-20 bg-pink-400/10 rounded-full" />
+                            <img src="/images/v_card_icon_1.webp" alt="" className="h-20 bg-pink-400/10 rounded-full" />
                             <h2 className="text-5xl font-bold mt-6">45% of user</h2>
                             <p className="mt-6 text-[20px]">Points of Presence Worldwide Datacenters</p>
                         </div>
                         <div>
-                            <img src="./images/v_card_icon_2.webp" alt="" className="h-20 bg-pink-400/10 rounded-full" />
+                            <img src="/images/v_card_icon_2.webp" alt="" className="h-20 bg-pink-400/10 rounded-full" />
                             <h2 className="text-5xl font-bold mt-6">$10k Reviews</h2>
                             <p className="mt-6 text-[20px]">Points of Presence Worldwide Datacenters</p>
                         </div>
                     </div>
                     <div className="col-span-1 relative ml-6">
-                        <img src="./images/video_img.webp" alt="image" className="h-75 w-full" />
+                        <img src="/images/video_img.webp" alt="image" className="h-75 w-full" />
                         <div className="absolute inset-0 flex justify-center items-center">
                             <div className="flex justify-center items-center -mt-80 size-20 bg-orange-500/20 rounded-full cursor-pointer animate-pulse-border">
                                 <button onClick={() => setIsOpen(true)} className="flex items-center justify-center size-10 bg-gradient-to-r from-red-500 via-pink-400 to-purple-400 rounded-full cursor-pointer">

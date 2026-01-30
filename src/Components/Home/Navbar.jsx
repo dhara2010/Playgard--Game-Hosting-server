@@ -13,13 +13,13 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="h-200 bg-fixed bg-center bg-cover bg-black" style={{ backgroundImage: "url('./images/hero_bg_3.webp')" }} >
+    <div className="h-200 bg-fixed bg-center bg-cover bg-black" style={{ backgroundImage: "url('/images/hero_bg_3.webp')" }} >
       <header className={`fixed w-full top-13 z-50 transition-all duration-300 ${ isScrolled  ? "bg-white text-black shadow-md h-20": "bg-transparent text-white" }`} >
         <div className="mt-5 relative">
           <div className="mx-30">
             <div className="flex justify-between items-center">
               <div className="flex gap-16 items-center">
-                <Link to="/" > <img src={isScrolled ? "./images/logo3.webp" : "./images/logo2.webp"} alt="logo" className="h-11 transition-all duration-300" /></Link>
+                <Link to="/" > <img src={isScrolled ? "/images/logo3.webp" : "/images/logo2.webp"} alt="logo" className="h-11 transition-all duration-300" /></Link>
                 <ul className="flex gap-8 items-center font-bold">
                   <li className="relative group cursor-pointer">
                     <div className="flex items-center gap-1 hover:text-red-400">

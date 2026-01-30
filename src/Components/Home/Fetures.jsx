@@ -3,18 +3,18 @@ import FeturesBox from "./FeturesBox";
 
 function Fetures() {
   const content = [
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
-    { img: "./images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_1.webp", title: "Instant Server", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
+    { img: "/images/feature_icon_2.webp", title: "DDoS Protection", text: "Our Minecraft hosting plans include automatic modpack installation. It’s easy to install" },
 
   ];
 

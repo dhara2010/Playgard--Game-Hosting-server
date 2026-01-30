@@ -9,7 +9,7 @@ function Footer() {
                 <div className="border border-neutral-700 rounded-lg p-12">
                     <div className="grid grid-cols-4 gap-8">
                         <div className='w-80 p-2'>
-                            <img src="./images/footer_logo.webp" alt="Footer Logo" className="mb-4" />
+                            <img src="/images/footer_logo.webp" alt="Footer Logo" className="mb-4" />
                             <p className="font-semibold mb-4">
                                 We’re always in search for talented and motivated people. Don’t be shy, introduce yourself!
                                 Subscribe for news, exclusive offers & exciting updates delivered right to your inbox!
@@ -71,12 +71,12 @@ function Footer() {
                     </div>
                     <div className='flex justify-between items-center gap-2'>
                         <p className='text-[18px] mr-2'>We Accept Payment Gateway</p>
-                        <img src="../images/payment_1.webp" alt="" />
-                        <img src="../images/payment_2.webp" alt="" />
-                        <img src="../images/payment_3.webp" alt="" />
-                        <img src="../images/payment_4.webp" alt="" />
-                        <img src="../images/payment_5.webp" alt="" />
-                        <img src="../images/payment_6.webp" alt="" />
+                        <img src="./images/payment_1.webp" alt="" />
+                        <img src="./images/payment_2.webp" alt="" />
+                        <img src="./images/payment_3.webp" alt="" />
+                        <img src="./images/payment_4.webp" alt="" />
+                        <img src="./images/payment_5.webp" alt="" />
+                        <img src="./images/payment_6.webp" alt="" />
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ function ReviewBox({img}) {
     return (
         <div className="flex justify-between items-center">
             <div className="relative group text-white bg-dark p-6 rounded-lg border border-neutral-700 w-88 h-76 flex flex-col overflow-hidden">
-                <img src="./images/hero_bg_3.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <img src="/images/hero_bg_3.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative flex flex-col z-10">
                     <div className="flex">
                         <img src={img} alt="user" />

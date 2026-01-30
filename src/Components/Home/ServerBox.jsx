@@ -6,22 +6,22 @@ function ServerBox({ img, head }) {
             <div className="flex justify-between">
                 <div className="h-96 relative group overflow-hidden w-1/2 mx-5">
                     <div className="group-hover:opacity-0">
-                        <img src="./images/service_slider_icon_1.webp" alt="icon" />
+                        <img src="/images/service_slider_icon_1.webp" alt="icon" />
                         <h1 className='mt-4 text-3xl font-bold'>{head}</h1>
                         <p className='mt-4'>Our Minecraft hosting plans include automatic modpack installation.</p>
                         <ul className='mt-4'>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />30+ Games support</li>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />Automatic Backups</li>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />Workshop & Mod Installers</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />30+ Games support</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />Automatic Backups</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />Workshop & Mod Installers</li>
                         </ul>
                     </div>
                     <div className="absolute inset-0 flex flex-col justify-center opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
                         <h1 className="text-3xl font-bold mb-4">{head}</h1>
                         <p className='mt-4'>Our Minecraft hosting plans include automatic modpack installation.</p>
                         <ul className='mt-4'>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />30+ Games support</li>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />Automatic Backups</li>
-                            <li className='flex pt-2 gap-2'><img src="./images/check-dark.webp" alt="" />Workshop & Mod Installers</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />30+ Games support</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />Automatic Backups</li>
+                            <li className='flex pt-2 gap-2'><img src="/images/check-dark.webp" alt="" />Workshop & Mod Installers</li>
                         </ul>
                         <div className="flex justify-between items-center mt-6">
                             <button className="relative overflow-hidden bg-gradient-to-r from-red-500 via-pink-400 to-purple-400 rounded-full px-6 py-2 text-white font-semibold h-10 w-32">

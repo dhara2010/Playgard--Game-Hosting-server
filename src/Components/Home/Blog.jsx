@@ -13,9 +13,9 @@ function Blog() {
             </div>
             <div className="px-30">
                 <div className="flex justify-between">
-                    <BlogBox img='../images/blog_style_4.webp' />
-                    <BlogBox img='../images/blog_style_5.webp' />
-                    <BlogBox img='../images/blog_style_6.webp' />
+                    <BlogBox img='./images/blog_style_4.webp' />
+                    <BlogBox img='./images/blog_style_5.webp' />
+                    <BlogBox img='./images/blog_style_6.webp' />
                 </div>
             </div>
             <div className="flex justify-center items-center mt-8">

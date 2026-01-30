@@ -5,7 +5,7 @@ function PricingBox({p,title}) {
         <div>
             <div className="flex justify-between items-center mt-15">
                 <div className="relative group text-white bg-dark p-4 rounded-lg border border-neutral-700 w-90 h-140 overflow-hidden">
-                    <img src="../images/hero_bg_3.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <img src="./images/hero_bg_3.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <div className="relative p-5 z-10">
                         <div className="flex text-red-400 items-center">
                             <span class="material-icons mr-2" style={{ fontSize: "18px" }}>grid_view</span>

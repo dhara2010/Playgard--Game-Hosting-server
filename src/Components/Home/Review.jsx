@@ -3,12 +3,12 @@ import ReviewBox from './ReviewBox';
 
 function Review() {
   const content = [
-    { img: "../images/client_1.webp" },
-    { img: "../images/client_2.webp" },
-    { img: "../images/client_1.webp" },
-    { img: "../images/client_2.webp" },
-    { img: "../images/client_1.webp" },
-    { img: "../images/client_2.webp" }
+    { img: "./images/client_1.webp" },
+    { img: "./images/client_2.webp" },
+    { img: "./images/client_1.webp" },
+    { img: "./images/client_2.webp" },
+    { img: "./images/client_1.webp" },
+    { img: "./images/client_2.webp" }
   ];
 
   const images = [...content, ...content];

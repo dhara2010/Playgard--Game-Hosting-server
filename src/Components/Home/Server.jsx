@@ -3,12 +3,12 @@ import ServerBox from "./ServerBox";
 
 function Server() {
   const images = [
-    { img: "../images/service_slider_1.webp", head: "Gaming Server" },
-    { img: "../images/service_slider_2.webp", head: "Dedicated Server" },
-    { img: "../images/service_slider_1.webp", head: "Gaming Server" },
-    { img: "../images/service_slider_1.webp", head: "Gaming Server" },
-    { img: "../images/service_slider_2.webp", head: "Dedicated Server" },
-    { img: "../images/service_slider_1.webp", head: "Gaming Server" },
+    { img: "./images/service_slider_1.webp", head: "Gaming Server" },
+    { img: "./images/service_slider_2.webp", head: "Dedicated Server" },
+    { img: "./images/service_slider_1.webp", head: "Gaming Server" },
+    { img: "./images/service_slider_1.webp", head: "Gaming Server" },
+    { img: "./images/service_slider_2.webp", head: "Dedicated Server" },
+    { img: "./images/service_slider_1.webp", head: "Gaming Server" },
   ];
 
   // Add clones: last slide at start, first slide at end

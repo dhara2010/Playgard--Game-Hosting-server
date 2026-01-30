@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className="fixed top-0 flex z-50 bg-neutral-700 w-full justify-between px-4 py-3 h-[54px]">
             <div className="flex items-center text-white">
-                <img src="../images/logo.png" alt="logo" className="h-6 w-6" />
+                <img src="./images/logo.png" alt="logo" className="h-6 w-6" />
                 <span className="font-bold text-lg">
                     evanto<span className="font-normal">market</span>
                 </span>

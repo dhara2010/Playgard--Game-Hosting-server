@@ -2,7 +2,7 @@ import React from 'react'
 
 function Help() {
   return (
-    <div className="h-150  bg-center bg-cover bg-black" style={{ backgroundImage: "url('../images/hero_bg_3.webp')" }}>
+    <div className="h-150  bg-center bg-cover bg-black" style={{ backgroundImage: "url('./images/hero_bg_3.webp')" }}>
             <main className="pt-10">
                 <section className="h-[68vh] flex flex-col justify-center items-center text-center gap-4">
                     <h1 className="text-white text-5xl font-serif font-bold max-w-3xl leading-tight">

@@ -1,0 +1,142 @@
+body {
+  font-family: Space Grotesk, sans-serif;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  --bs-dark-rgb: 0, 0, 15;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+}
+
+@keyframes pulse-border {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0px rgba(249, 115, 22);
+  }
+
+  50% {
+    box-shadow: 0 0 0 2px rgba(249, 115, 22);
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.animate-pulse-border {
+  animation: pulse-border 2s infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #f43f5e, #f9a8d4, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #09091100 40.75%, #090911 76.25%);
+}
+
+
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scroll-left {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 100s linear infinite;
+}
+
+.animate-scroll-right {
+  display: flex;
+  width: max-content;
+  animation: scroll-right 100s linear infinite;
+}
+
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+#storage-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #fff3;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+@keyframes scroll-up {
+    0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left2 {
+  display: flex;
+  animation: scroll-left 25s linear infinite;
+}
+
+.animate-scroll-right2 {
+  display: flex;
+  animation: scroll-right 25s linear infinite;
+}

@@ -21,29 +21,29 @@ function Os() {
                         <div className="flex justify-between items-center overflow-hidden">
                             <div className="flex animate-scroll-left gap-8">
                                 {[
-                                    "./images/pages/os_icon_6.webp",
-                                    "./images/pages/os_icon_1.webp",
-                                    "./images/pages/os_icon_3.webp",
-                                    "./images/pages/os_icon_4.webp",
-                                    "./images/pages/os_icon_5.webp",
+                                    "/images/pages/os_icon_6.webp",
+                                    "/images/pages/os_icon_1.webp",
+                                    "/images/pages/os_icon_3.webp",
+                                    "/images/pages/os_icon_4.webp",
+                                    "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={i} src={src} alt="" className="h-18" />
                                 ))}
                                 {[
-                                    "./images/pages/os_icon_6.webp",
-                                    "./images/pages/os_icon_1.webp",
-                                    "./images/pages/os_icon_3.webp",
-                                    "./images/pages/os_icon_4.webp",
-                                    "./images/pages/os_icon_5.webp",
+                                    "/images/pages/os_icon_6.webp",
+                                    "/images/pages/os_icon_1.webp",
+                                    "/images/pages/os_icon_3.webp",
+                                    "/images/pages/os_icon_4.webp",
+                                    "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-18" />
                                 ))}
                                 {[
-                                    "./images/pages/os_icon_6.webp",
-                                    "./images/pages/os_icon_1.webp",
-                                    "./images/pages/os_icon_3.webp",
-                                    "./images/pages/os_icon_4.webp",
-                                    "./images/pages/os_icon_5.webp",
+                                    "/images/pages/os_icon_6.webp",
+                                    "/images/pages/os_icon_1.webp",
+                                    "/images/pages/os_icon_3.webp",
+                                    "/images/pages/os_icon_4.webp",
+                                    "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-18" />
                                 ))}
@@ -52,46 +52,46 @@ function Os() {
                         <div className="flex justify-between items-center overflow-hidden mt-4">
                             <div className="flex animate-scroll-right gap-8">
                                 {[
-                                    "./images/pages/os2_icon_6.webp",
-                                    "./images/pages/os2_icon_7.webp",
-                                    "./images/pages/os2_icon_1.webp",
-                                    "./images/pages/os2_icon_2.webp",
-                                    "./images/pages/os2_icon_3.webp",
-                                    "./images/pages/os2_icon_4.webp",
-                                    "./images/pages/os2_icon_5.webp",
+                                    "/images/pages/os2_icon_6.webp",
+                                    "/images/pages/os2_icon_7.webp",
+                                    "/images/pages/os2_icon_1.webp",
+                                    "/images/pages/os2_icon_2.webp",
+                                    "/images/pages/os2_icon_3.webp",
+                                    "/images/pages/os2_icon_4.webp",
+                                    "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-25" />
                                 ))}
                                 {[
-                                    "./images/pages/os2_icon_6.webp",
-                                    "./images/pages/os2_icon_7.webp",
-                                    "./images/pages/os2_icon_1.webp",
-                                    "./images/pages/os2_icon_2.webp",
-                                    "./images/pages/os2_icon_3.webp",
-                                    "./images/pages/os2_icon_4.webp",
-                                    "./images/pages/os2_icon_5.webp",
+                                    "/images/pages/os2_icon_6.webp",
+                                    "/images/pages/os2_icon_7.webp",
+                                    "/images/pages/os2_icon_1.webp",
+                                    "/images/pages/os2_icon_2.webp",
+                                    "/images/pages/os2_icon_3.webp",
+                                    "/images/pages/os2_icon_4.webp",
+                                    "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-25" />
                                 ))}
                                 {[
-                                    "./images/pages/os2_icon_6.webp",
-                                    "./images/pages/os2_icon_7.webp",
-                                    "./images/pages/os2_icon_1.webp",
-                                    "./images/pages/os2_icon_2.webp",
-                                    "./images/pages/os2_icon_3.webp",
-                                    "./images/pages/os2_icon_4.webp",
-                                    "./images/pages/os2_icon_5.webp",
+                                    "/images/pages/os2_icon_6.webp",
+                                    "/images/pages/os2_icon_7.webp",
+                                    "/images/pages/os2_icon_1.webp",
+                                    "/images/pages/os2_icon_2.webp",
+                                    "/images/pages/os2_icon_3.webp",
+                                    "/images/pages/os2_icon_4.webp",
+                                    "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-25" />
                                 ))}
                                 {[
-                                    "./images/pages/os2_icon_6.webp",
-                                    "./images/pages/os2_icon_7.webp",
-                                    "./images/pages/os2_icon_1.webp",
-                                    "./images/pages/os2_icon_2.webp",
-                                    "./images/pages/os2_icon_3.webp",
-                                    "./images/pages/os2_icon_4.webp",
-                                    "./images/pages/os2_icon_5.webp",
+                                    "/images/pages/os2_icon_6.webp",
+                                    "/images/pages/os2_icon_7.webp",
+                                    "/images/pages/os2_icon_1.webp",
+                                    "/images/pages/os2_icon_2.webp",
+                                    "/images/pages/os2_icon_3.webp",
+                                    "/images/pages/os2_icon_4.webp",
+                                    "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
                                     <img key={`dup-${i}`} src={src} alt="" className="h-25" />
                                 ))}

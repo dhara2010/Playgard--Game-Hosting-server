@@ -15,9 +15,9 @@ function Support() {
                 </div>
             </div>
             <div className="grid grid-cols-3 px-30 mt-30 gradient">
-                <Support2 img="./images/pages/support_icon_1.webp" />
-                <Support2 img="./images/pages/support_icon_2.webp" />
-                <Support2 img="./images/pages/support_icon_3.webp" />
+                <Support2 img="/images/pages/support_icon_1.webp" />
+                <Support2 img="/images/pages/support_icon_2.webp" />
+                <Support2 img="/images/pages/support_icon_3.webp" />
             </div>
             <Fetured/>
             <Categories/>

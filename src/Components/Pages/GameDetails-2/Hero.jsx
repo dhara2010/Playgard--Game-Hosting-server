@@ -20,7 +20,7 @@ function Hero() {
     return (
         <div className='relative -mt-186 text-white bg-black mb-50'>
             <div className="relative">
-                <img src="./images/pages/banner_2_bg_gd.webp" alt="" className='w-full h-96 object-cover' />
+                <img src="/images/pages/banner_2_bg_gd.webp" alt="" className='w-full h-96 object-cover' />
             </div>
             <div className="px-30">
                 <div className="absolute -mt-60">
@@ -64,7 +64,7 @@ function Hero() {
                         </div>
                         <div className="mt-6">
                             <div className="flex items-center justify-center gap-1 border border-neutral-500 rounded-full -mx-4 py-2 bg-black/20 w-60">
-                                <img src="./images/pages/loc_flg_1.webp" alt="US Flag" className="rounded-full" />
+                                <img src="/images/pages/loc_flg_1.webp" alt="US Flag" className="rounded-full" />
                                 <select  value={location} onChange={handleChange} className="bg-dark text-white outline-none cursor-pointer w-43">
                                     <option className="bg-neutral-900" value="Chicago, IL">Chicago, IL</option>
                                     <option className="bg-neutral-900" value="USA">USA</option>

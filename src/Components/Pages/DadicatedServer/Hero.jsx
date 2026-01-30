@@ -16,7 +16,7 @@ function Hero() {
                         </button>
                     </div>
                     </div>
-                    <img src="./images/pages/ds_img.webp" alt="" className='-mt-20'/>
+                    <img src="/images/pages/ds_img.webp" alt="" className='-mt-20'/>
                     
                 </div>
             </div>

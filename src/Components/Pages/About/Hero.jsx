@@ -12,7 +12,7 @@ function Hero() {
                     <p className='max-w-xs pt-25'>World class development and built for performance, Taskify will deliver every time.</p>
                 </div>
                 <div className="mt-5">
-                    <img src="./images/pages/about_lg_img.webp" alt="" />
+                    <img src="/images/pages/about_lg_img.webp" alt="" />
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ function Ark() {
     <div className='bg-dark text-white'>
       <div className="px-30 pt-30">
             <div className="flex justify-between items-center gap-6">
-                <img src="./images/pages/video_img_2.webp" alt="" className='w-135'/>
+                <img src="/images/pages/video_img_2.webp" alt="" className='w-135'/>
                 <div>
                     <h1 className='text-5xl leading-tight font-bold'>Play ARK: Survival Evolved Multiplayer</h1>
                     <p className='mt-5 max-w-[60ch]'>Get your tribe together and dominate ARK: Survival Evolved multiplayer on our ARK dedicated servers.</p>

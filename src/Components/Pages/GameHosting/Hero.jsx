@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import Card from './Card'
 
 const slides = [
-    { img: "./images/pages/hero_1_slider_1.webp" },
-    { img: "./images/pages/hero_1_slider_2.webp" },
-    { img: "./images/pages/hero_1_slider_3.webp" },
-    { img: "./images/pages/hero_1_slider_1.webp" },
+    { img: "/images/pages/hero_1_slider_1.webp" },
+    { img: "/images/pages/hero_1_slider_2.webp" },
+    { img: "/images/pages/hero_1_slider_3.webp" },
+    { img: "/images/pages/hero_1_slider_1.webp" },
 ];
 function Hero() {
     const [current, setCurrent] = useState(0);
@@ -34,21 +34,21 @@ function Hero() {
                         <div className="flex items-center justify-between w-full mt-8 max-w-md">
                             <div>
                                 <div className="flex -space-x-4">
-                                    <img src="./images/pages/avater-group-1.webp" alt="" />
-                                    <img src="./images/pages/avater-group-2.webp" alt="" />
-                                    <img src="./images/pages/avater-group-3.webp" alt="" />
+                                    <img src="/images/pages/avater-group-1.webp" alt="" />
+                                    <img src="/images/pages/avater-group-2.webp" alt="" />
+                                    <img src="/images/pages/avater-group-3.webp" alt="" />
                                 </div>
                                 <p className='mt-2 font-semibold'>Trusted by Over 2500+ User</p>
                             </div>
                             <div>
-                                <img src="./images/pages/hero_1_shape.webp" alt="" />
+                                <img src="/images/pages/hero_1_shape.webp" alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="w-134">
                         <div className="relative w-full h-[750px] overflow-hidden">
                             <div className="absolute inset-0">
-                                <img src="./images/pages/hero_slider_bg_1.webp" alt="Background" className="w-full h-full object-cover rounded-xl" />
+                                <img src="/images/pages/hero_slider_bg_1.webp" alt="Background" className="w-full h-full object-cover rounded-xl" />
                             </div>
                             <div className="relative z-10 flex transition-transform duration-700 ease-in-out"
                                 style={{ transform: `translateX(-${current * 100}%)` }}>

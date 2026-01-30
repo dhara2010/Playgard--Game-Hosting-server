@@ -10,10 +10,10 @@ function Team() {
                     <p className='max-w-2xl'>Easily install and manage your ARK server's Steam Workshop mods (in one click!) with our easy-to-use management interface.</p>
                 </div>
                 <div className="flex justify-between items-center mt-9">
-                    <TeamBox img={'./images/pages/team_1.webp'}/>
-                    <TeamBox img={'./images/pages/team_2.webp'}/>
-                    <TeamBox img={'./images/pages/team_3.webp'}/>
-                    <TeamBox img={'./images/pages/team_1.webp'}/>
+                    <TeamBox img={'/images/pages/team_1.webp'}/>
+                    <TeamBox img={'/images/pages/team_2.webp'}/>
+                    <TeamBox img={'/images/pages/team_3.webp'}/>
+                    <TeamBox img={'/images/pages/team_1.webp'}/>
                 </div>
             </div>
         </div>

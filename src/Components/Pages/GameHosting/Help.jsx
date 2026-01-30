@@ -5,7 +5,7 @@ function Help() {
         <div className="bg-dark">
             <div className="px-30 -mb-80">
                 <div className="h-190 bg-center bg-cover">
-                    <img src="./images/pages/cta_bg.webp" alt="" className='absolute w-270 border border-neutral-700 rounded-3xl'/>
+                    <img src="/images/pages/cta_bg.webp" alt="" className='absolute w-270 border border-neutral-700 rounded-3xl'/>
                     <main className="relative">
                         <section className="h-[68vh] flex flex-col justify-center items-center text-center gap-4">
                             <h1 className="text-white text-5xl font-serif font-bold max-w-3xl leading-tight">

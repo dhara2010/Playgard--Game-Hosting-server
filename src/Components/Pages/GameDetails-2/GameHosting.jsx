@@ -3,12 +3,12 @@ import { Link } from 'react-router'
 
 function GameHosting({ noBg = false }) {
     const features = [
-        { name: "Console", img: "./images/pages/game_host_img.webp" },
-        { name: "Modpack Installer", img: "./images/pages/game_host_img_2.webp" },
-        { name: "Reverse Proxy", img: "./images/pages/game_host_img_3.webp" },
-        { name: "Server Importer", img: "./images/pages/game_host_img_4.webp" },
-        { name: "Server Splitter", img: "./images/pages/game_host_img_3.webp" },
-        { name: "File Manager", img: "./images/pages/game_host_img_2.webp" },
+        { name: "Console", img: "/images/pages/game_host_img.webp" },
+        { name: "Modpack Installer", img: "/images/pages/game_host_img_2.webp" },
+        { name: "Reverse Proxy", img: "/images/pages/game_host_img_3.webp" },
+        { name: "Server Importer", img: "/images/pages/game_host_img_4.webp" },
+        { name: "Server Splitter", img: "/images/pages/game_host_img_3.webp" },
+        { name: "File Manager", img: "/images/pages/game_host_img_2.webp" },
     ];
 
     const [selectedIndex, setSelectedIndex] = useState(0);

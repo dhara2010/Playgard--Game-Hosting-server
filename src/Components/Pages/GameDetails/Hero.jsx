@@ -19,7 +19,7 @@ function Hero() {
             </div>
             <div className="gradient">
                 <div className="px-30">
-                    <img src="./images/pages/game_details_img.webp" alt="" />
+                    <img src="/images/pages/game_details_img.webp" alt="" />
                 </div>
             </div>
         </div>

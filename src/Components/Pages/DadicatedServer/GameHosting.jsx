@@ -9,19 +9,19 @@ function GameHosting() {
                 <p className='mt-4 max-w-xl'>Experience unparalleled performance and reliability with our UK-based game servers. Tailored for just friends and massive communities.</p>
                 <div className="flex">
                     <div className="flex flex-col mt-15 border-r border-red-300 ">
-                        <GameHostingBox img='./images/pages/gh_1.webp' text={'Enterprise Hardware'} />
+                        <GameHostingBox img='/images/pages/gh_1.webp' text={'Enterprise Hardware'} />
                         <hr className='border-neutral-600' />
-                        <GameHostingBox img='./images/pages/gh_2.webp' text={'Budget Friendly'} />
+                        <GameHostingBox img='/images/pages/gh_2.webp' text={'Budget Friendly'} />
                     </div>
                     <div className="flex flex-col mt-15 border-r border-red-300 ">
-                        <GameHostingBox img='./images/pages/gh_3.webp' text={'Amazing Support'} />
+                        <GameHostingBox img='/images/pages/gh_3.webp' text={'Amazing Support'} />
                         <hr className='border-neutral-600 mt-[1.5px]' />
-                        <GameHostingBox img='./images/pages/gh_4.webp' text={'Premium Locations'} />
+                        <GameHostingBox img='/images/pages/gh_4.webp' text={'Premium Locations'} />
                     </div>
                     <div className="flex-flex-col mt-15">
-                        <GameHostingBox img='./images/pages/gh_5.webp' text={'Premium Locations'} />
+                        <GameHostingBox img='/images/pages/gh_5.webp' text={'Premium Locations'} />
                         <hr className='border-neutral-600' />
-                        <GameHostingBox img='./images/pages/gh_6.webp' text={'Instant Setup'} />
+                        <GameHostingBox img='/images/pages/gh_6.webp' text={'Instant Setup'} />
                     </div>
                 </div>
             </div>

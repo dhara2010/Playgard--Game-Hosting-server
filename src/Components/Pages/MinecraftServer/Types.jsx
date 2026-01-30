@@ -5,7 +5,7 @@ function Types() {
     <div className='bg-dark text-white'>
       <div className="px-30 pt-30">
         <div className="flex justify-between items-center gap-6">
-          <img src="./images/pages/mcs_img.webp" alt="" className='w-135' />
+          <img src="/images/pages/mcs_img.webp" alt="" className='w-135' />
           <div>
             <h1 className='text-5xl leading-tight font-bold'>Which Minecraft Server Types Are Supported?</h1>
             <p className='mt-5 max-w-[60ch]'>Minecraft server hosting plans are fully equipped to support both Java and Bedrock Edition, ensuring all versions are up-to-date with automatic updates.</p>

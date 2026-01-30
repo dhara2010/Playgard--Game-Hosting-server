@@ -5,7 +5,7 @@ function Help() {
         <div className='bg-dark text-white'>
             <div className="px-30 pt-20">
                 <div className="relative border border-neutral-600 rounded-2xl h-83">
-                    <img src="./images/pages/gdf_bg.webp" alt="" className='h-82.5 w-full' />
+                    <img src="/images/pages/gdf_bg.webp" alt="" className='h-82.5 w-full' />
                     <div className="absolute inset-0 p-8 flex flex-col justify-center gap-4">
                         <h1 className='text-5xl font-bold'>Need Some help?</h1>
                         <p>Easily install and manage your ARK server's Steam Workshop mods (in one click!) with our easy-to-use management interface.</p>

@@ -18,7 +18,7 @@ import Header from "./Components/Home/Header";
 import MinecratServer from "./Components/Pages/MinecraftServer/MinecratServer";
 import About from "./Components/Pages/About/About";
 import GameServerHQ from "./Components/Home/GameServerHQ/GameServerHQ";
-import ScrollToTop from "./Scrolltotop";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function App() {
   return (

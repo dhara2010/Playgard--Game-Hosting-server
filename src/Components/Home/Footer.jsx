@@ -9,7 +9,7 @@ function Footer() {
                 <div className="border border-neutral-700 rounded-lg p-12">
                     <div className="grid grid-cols-4 gap-8">
                         <div className='w-80 p-2'>
-                            <img src="../images/footer_logo.webp" alt="Footer Logo" className="mb-4" />
+                            <img src="./images/footer_logo.webp" alt="Footer Logo" className="mb-4" />
                             <p className="font-semibold mb-4">
                                 We’re always in search for talented and motivated people. Don’t be shy, introduce yourself!
                                 Subscribe for news, exclusive offers & exciting updates delivered right to your inbox!

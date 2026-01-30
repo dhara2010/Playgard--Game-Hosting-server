@@ -13,13 +13,13 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="h-200 bg-fixed bg-center bg-cover bg-black" style={{ backgroundImage: "url('../images/hero_bg_3.webp')" }} >
+    <div className="h-200 bg-fixed bg-center bg-cover bg-black" style={{ backgroundImage: "url('./images/hero_bg_3.webp')" }} >
       <header className={`fixed w-full top-13 z-50 transition-all duration-300 ${ isScrolled  ? "bg-white text-black shadow-md h-20": "bg-transparent text-white" }`} >
         <div className="mt-5 relative">
           <div className="mx-30">
             <div className="flex justify-between items-center">
               <div className="flex gap-16 items-center">
-                <Link to="/" > <img src={isScrolled ? "../images/logo3.webp" : "../images/logo2.webp"} alt="logo" className="h-11 transition-all duration-300" /></Link>
+                <Link to="/" > <img src={isScrolled ? "./images/logo3.webp" : "./images/logo2.webp"} alt="logo" className="h-11 transition-all duration-300" /></Link>
                 <ul className="flex gap-8 items-center font-bold">
                   <li className="relative group cursor-pointer">
                     <div className="flex items-center gap-1 hover:text-red-400">
@@ -30,7 +30,6 @@ function Navbar() {
                     </div>
                     <ul className="absolute -left-10 top-full mt-2 bg-white text-neutral-900 rounded shadow-lg w-56 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                       <li className="px-4 py-2 text-[14px] font-medium hover:text-red-400"><Link to='/' > Game Server</Link> </li>
-                      <li className="px-4 py-2 text-[14px] font-medium hover:text-red-400"><Link to='/' > Game Server Light </Link></li>
                       <li className="px-4 py-2 text-[14px] font-medium hover:text-red-400"><Link to='/gamehosting' > Game Hosting </Link></li>
                       <li className="px-4 py-2 text-[14px] font-medium hover:text-red-400"><Link to='/gameserverhq'>Game Server HQ</Link></li>
                     </ul>

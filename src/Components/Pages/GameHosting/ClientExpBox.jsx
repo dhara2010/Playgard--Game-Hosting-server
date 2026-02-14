@@ -2,7 +2,7 @@ import React from 'react'
 
 function ClientExpBox() {
     return (
-        <div className="border border-neutral-600 bg-neutral-800/20 p-7 rounded-xl w-78">
+        <div className="border border-neutral-600 bg-neutral-800/20 p-3 lg:p-7 rounded-xl lg:w-78">
             <div className="flex">
                 <i class="fa-solid fa-star text-red-400"></i>
                 <i class="fa-solid fa-star text-red-400"></i>

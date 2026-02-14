@@ -3,11 +3,11 @@ import React from 'react'
 function Hero() {
     return (
         <div className='gradient -mt-130 text-white'>
-            <div className="px-30">
+            <div className="px-4 lg:px-30">
                 <div className="flex justify-between">
                     <div>
                         <p className='text-[12px] font-bold'>Home <i class="fa-solid fa-angle-right"></i> Hosting Server <i class="fa-solid fa-angle-right"></i> Dedicated Server</p>
-                        <h1 className='font-bold text-6xl max-w-md mt-18 leading-tight'>Dedicated Server Hosting</h1>
+                        <h1 className='font-bold text-2xl lg:text-6xl max-w-md mt-18 leading-tight'>Dedicated Server Hosting</h1>
                         <p className='mt-6'>Unique, high-performing hardware that you won't find with the big clouds. performance for less than one tenth the price.</p>
                         <div className="group inline-block mt-8">
                         <button className="relative overflow-hidden bg-gradient-to-r from-red-500  via-pink-400 to-purple-400 rounded-full px-6 py-4 text-white font-semibol">
@@ -16,7 +16,7 @@ function Hero() {
                         </button>
                     </div>
                     </div>
-                    <img src="/images/pages/ds_img.webp" alt="" className='-mt-20'/>
+                    <img src="/images/pages/ds_img.webp" alt="" className='-mt-20 hidden lg:block'/>
                     
                 </div>
             </div>

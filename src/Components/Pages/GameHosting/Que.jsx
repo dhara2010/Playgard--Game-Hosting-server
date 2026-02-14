@@ -34,12 +34,12 @@ function Que() {
     };
 
     return (
-        <div className='bg-dark h-150 text-white'>
-            <div className="flex mx-30 pt-30 ">
-                <div className="w-1/2 flex flex-col gap-4">
-                    <h1 className='text-5xl max-w-sm leading-tight font-bold'>Got Questions?We've Got Answers.</h1>
+        <div className='bg-dark h-full lg:h-150 text-white'>
+            <div className="flex flex-wrap px-4 lg:px-30 pt-30">
+                <div className="w-full lg:w-1/2 flex flex-col gap-4">
+                    <h1 className='text=2xl lg:text-5xl max-w-sm leading-tight font-bold'>Got Questions?We've Got Answers.</h1>
                 </div>
-                <div className='w-1/2 flex flex-col gap-13 p-4'>
+                <div className='w-full lg:w-1/2 flex flex-col gap-13 p-4'>
                     {QA.map((item, index) => {
                         const isOpen = openIndex === index;
                         return (

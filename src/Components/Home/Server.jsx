@@ -11,16 +11,26 @@ function Server() {
     { img: "/images/service_slider_1.webp", head: "Gaming Server" },
   ];
 
-  // Add clones: last slide at start, first slide at end
   const loopImages = [
     images[images.length - 1],
     ...images,
     images[0],
   ];
 
-  const [index, setIndex] = useState(1); // start from first real slide
+  const [index, setIndex] = useState(1); 
   const [transition, setTransition] = useState(true);
   const sliderRef = useRef(null);
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+  const checkScreen = () => {
+    setIsDesktop(window.innerWidth >= 768); 
+  };
+
+  checkScreen();
+  window.addEventListener("resize", checkScreen);
+  return () => window.removeEventListener("resize", checkScreen);
+}, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -59,10 +69,10 @@ function Server() {
         ref={sliderRef}
         onTransitionEnd={handleTransitionEnd}
         className={`flex ${transition ? "transition-transform duration-700 ease-in-out" : ""}`}
-        style={{ transform: `translateX(-${index * 50}%)` }}
+        style={{ transform: `translateX(-${isDesktop ? index * 50 : index * 100}%)` }}
       >
         {loopImages.map((item, i) => (
-          <div className="w-1/2 flex-shrink-0" key={i}>
+          <div className="w-full md:w-1/2 flex-shrink-0" key={i}>
             <ServerBox img={item.img} head={item.head} />
           </div>
         ))}

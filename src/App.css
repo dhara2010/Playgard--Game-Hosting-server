@@ -36,8 +36,6 @@ body {
   background: linear-gradient(180deg, #09091100 40.75%, #090911 76.25%);
 }
 
-
-
 @keyframes scroll-left {
   0% {
     transform: translateX(0);

@@ -15,6 +15,23 @@ function Review() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const transitionRef = useRef(true);
+  const [slidesPerView, setSlidesPerView] = useState(3);
+useEffect(() => {
+  const updateSlides = () => {
+    if (window.innerWidth < 640) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth < 1024) {
+      setSlidesPerView(2);
+    } else {
+      setSlidesPerView(3);
+    }
+  };
+
+  updateSlides();
+  window.addEventListener("resize", updateSlides);
+  return () => window.removeEventListener("resize", updateSlides);
+}, []);
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -33,32 +50,33 @@ function Review() {
   };
 
 
-  useEffect(() => {
-    if (currentIndex >= content.length) {
-      setTimeout(() => {
-        transitionRef.current = false; 
-        setCurrentIndex(0);
-      }, 700); 
-    } else {
-      transitionRef.current = true;
-    }
-  }, [currentIndex, content.length]);
+ useEffect(() => {
+  if (currentIndex >= images.length - slidesPerView) {
+    setTimeout(() => {
+      transitionRef.current = false;
+      setCurrentIndex(0);
+    }, 700);
+  } else {
+    transitionRef.current = true;
+  }
+}, [currentIndex, images.length, slidesPerView]);
+
 
   return (
-    <div className='bg-dark min-h-[650px] text-white'>
-      <div className="flex justify-between mx-30">
+    <div className='bg-dark min-h-[650px] text-white py-20'>
+      <div className="flex flex-wrap justify-between px-4 lg:px-30">
         <div>
-          <h1 className='text-5xl font-bold'>What Our Clients Say!</h1>
-          <p className='mt-6 w-125 text-[16px]'>
+          <h1 className='text-3xl lg:text-5xl font-bold'>What Our Clients Say!</h1>
+          <p className='mt-6 lg:w-125 text-[16px]'>
             Our main focus is on quality and making sure you have everything you need to succeed.
           </p>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-wrap pt-10'>
           <div className="flex gap-3">
-            <h1 className='text-5xl font-bold'>456+</h1>
+            <h1 className='text-3xl lg:text-5xl font-bold'>456+</h1>
             <p className='w-50'>Customers have Given Rating for Support</p>
           </div>
-          <div className="flex mt-3 gap-2">
+          <div className="flex mt-3 lg:gap-2">
             <i className="fa-solid fa-star text-red-400"></i>
             <i className="fa-solid fa-star text-red-400"></i>
             <i className="fa-solid fa-star text-red-400"></i>
@@ -71,20 +89,20 @@ function Review() {
         </div>
       </div>
 
-      <div className="mt-10 mx-30 overflow-hidden relative">
-        <div className={`flex ${transitionRef.current ? 'transition-transform duration-700 ease-in-out' : ''}`} style={{ transform: `translateX(-${currentIndex * (100 / 12)}%)`, width: `${(images.length / 3) * 100}%`}} >
+      <div className="mt-10 px-4 lg:mx-35 overflow-hidden relative">
+        <div className={`flex ${transitionRef.current ? 'transition-transform duration-700 ease-in-out' : ''}`} style={{ transform: `translateX(-${currentIndex * (100 / slidesPerView)}%)`}} >
           {images.map((item, i) => (
-            <div className="w-1/12 flex-shrink-0 px-3" key={i}>
+            <div className="flex-shrink-0 px-3" style={{ width: `${100 / slidesPerView}%` }} key={i}>
               <ReviewBox img={item.img} />
             </div>
           ))}
         </div>
       </div>
       <div className="flex justify-center items-center gap-4 mt-22">
-        <button onClick={prevSlide} className="absolute left-155 -translate-y-1/2 border border-white text-white rounded-full size-12 bg-black/40 hover:bg-black/60 z-10">
+        <button onClick={prevSlide} className="left-3 lg:left-10 -translate-y-1/2 border border-white text-white rounded-full w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center bg-black/40 hover:bg-black/60 z-10">
         <i className="fa-solid fa-arrow-left"></i>
       </button>
-      <button onClick={nextSlide} className="absolute right-155 -translate-y-1/2 border border-white text-white rounded-full size-12 bg-black/40 hover:bg-black/60 z-10">
+      <button onClick={nextSlide} className="right-3 lg:right-10 -translate-y-1/2 border border-white text-white rounded-full w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center bg-black/40 hover:bg-black/60 z-10">
         <i className="fa-solid fa-arrow-right"></i>
       </button>
       </div>

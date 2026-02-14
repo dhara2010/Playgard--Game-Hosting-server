@@ -22,18 +22,18 @@ function Hero() {
             <div className="relative">
                 <img src="/images/pages/banner_2_bg_gd.webp" alt="" className='w-full h-96 object-cover' />
             </div>
-            <div className="px-30">
+            <div className="px-4 lg:px-30">
                 <div className="absolute -mt-60">
                     <p className='text-[12px] font-bold'>Home<i class="fa-solid fa-angle-right"></i> Game Server <i class="fa-solid fa-angle-right"></i>ARK Survival Evolved ( PS4)</p>
-                    <h4 className='mt-4 text-5xl font-bold'>ARK: Survival Evolved (PS4)</h4>
+                    <h4 className='mt-4 text-3xl lg:text-5xl font-bold'>ARK: Survival Evolved (PS4)</h4>
                     <p className='mt-6 text-neutral-300 max-w-xl'>Lag free, always up-to-date versions & modpacks. Enjoy a 24/7 support team that responds in MINUTES - not hours or days.</p>
                     <div className="mt-6 items-center font-semibold"><Link to="/">Official Website <i className='fa-solid fa-arrow-right'></i></Link></div>
                 </div>
             </div>
             <div className="absolute bg-dark">
-                <div className="px-30 flex justify-between gap-30">
+                <div className="px-4 lg:px-30 flex flex-wrap lg:flex-nowrap justify-between gap-30">
                     <div>
-                        <div className=" flex items-center justify-between border-x border-b pt-1 px-3 pb-3 bg-cyan-400/20 rounded-b-md  border-cyan-500 max-w-[83ch] h-15">
+                        <div className="flex items-center justify-between border-x border-b pt-3 lg:pt-1 px-3 pb-3 bg-cyan-400/20 rounded-b-md  border-cyan-500 max-w-[83ch] lg:h-15">
                             <i className="fa-solid fa-circle-exclamation text-cyan-400 mr-2 text-xl"></i>
                             <p className="text-sm font-semibold">Only compatible with the Steam & Epic versions of ARK. Genesis 2 and Lost Island maps require 16 GB RAM.</p>
                         </div>
@@ -54,7 +54,7 @@ function Hero() {
                             <p>You've selected {people} players slots!</p>
                         </div>
                     </div>
-                    <div className="text-center backdrop-blur-md border border-neutral-700 bg-gradient-to-b to-neutral-900/80 via-neutral-900/70 from-neutral-700/40 shadow-lg p-8 -mt-44 rounded-2xl w-70">
+                    <div className="text-center backdrop-blur-md border border-neutral-700 bg-gradient-to-b to-neutral-900/80 via-neutral-900/70 from-neutral-700/40 shadow-lg p-8 lg:-mt-44 rounded-2xl w-70">
                         <p className='-mt-1 text-indigo-500 font-bold'>Pricing</p>
                         <h1 className='mt-5 text-neutral-300 text-lg'>$<span className='text-white font-bold text-4xl'>{prices[people]}</span>/month</h1>
                         <div className="mt-6 space-y-3 text-sm text-white/80">

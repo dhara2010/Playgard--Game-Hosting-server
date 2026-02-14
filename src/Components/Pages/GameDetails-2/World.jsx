@@ -2,8 +2,8 @@ import React from 'react'
 
 function World() {
   return (
-    <div className="bg-dark text-white">
-        <div className="px-30 pt-4">
+    <div className="hidden lg:block bg-dark text-white">
+        <div className="px-4 lg:px-30 pt-4">
              <div className="flex justify-center items-center mt-10 relative">
                     <img src="/images/pages/map_1.webp" alt="" />
                     <div className="absolute top-[20%] left-[15%] flex flex-col items-center">

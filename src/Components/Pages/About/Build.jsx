@@ -2,10 +2,10 @@ import React from 'react'
 
 function Build() {
     return (
-        <div className='bg-dark text-white'>
-            <div className="px-30 pt-30">
+        <div className='hidden md:block bg-dark text-white'>
+            <div className="px-4 lg:px-30 pt-30">
                 <div className="flex flex-col gap-5 text-center justify-center items-center">
-                    <h1 className='text-5xl font-bold'>Build Locally, Launch Woldwide</h1>
+                    <h1 className='text-2xl lg:text-5xl font-bold'>Build Locally, Launch Woldwide</h1>
                     <p className='max-w-md'>Swap your game server for any the <span className='text-red-500 font-bold'>30+ Games Server</span>Locations at Hostingard</p>
                 </div>
                 <div className="flex justify-center items-center mt-10 relative">

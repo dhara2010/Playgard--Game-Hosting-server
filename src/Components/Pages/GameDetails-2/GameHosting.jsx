@@ -14,12 +14,12 @@ function GameHosting({ noBg = false }) {
     const [selectedIndex, setSelectedIndex] = useState(0);
     return (
         <div className={`${noBg ? '' : 'bg-dark'} text-white`}>
-            <div className="px-30 pt-48">
+            <div className="px-4 lg:px-30 pt-48">
                 <div className="flex flex-col items-center justify-center text-center">
-                    <h1 className='font-bold text-5xl'>Game Hosting, Simplified</h1>
+                    <h1 className='font-bold text-3xl lg:text-5xl'>Game Hosting, Simplified</h1>
                     <p className='mt-4 max-w-2xl'>With our revolutionary new Apollo Panel, Industry-leading Support, and Affordable Pricing, owning and managing a successful game server has never been easier.</p>
                 </div>
-                <div className="flex justify-between mt-10">
+                <div className="flex flex-wrap justify-between mt-10">
                     <div className="flex flex-col">
                         <ul className='space-y-3 text-[19px] font-semiblod mt-5'>
                             {features.map((feature, index) => (

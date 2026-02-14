@@ -2,7 +2,7 @@ import React from 'react'
 
 function GameBox({ img }) {
     return (
-        <div className="group border border-neutral-500 rounded-xl p-6 bg-neutral-600/20">
+        <div className="group border border-neutral-500 rounded-xl p-2 lg:p-6 bg-neutral-600/20">
             <div className="overflow-hidden rounded-xl">
                 <img src={img} alt="" className="transition-transform duration-500 ease-in-out group-hover:scale-120"/>            
                 </div>

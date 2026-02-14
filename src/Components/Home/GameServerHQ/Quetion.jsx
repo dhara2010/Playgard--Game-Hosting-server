@@ -80,8 +80,8 @@ function Quetion() {
 
     return (
         <div className='bg-dark text-white'>
-            <div className="px-30 pt-4">
-                <div className="flex justify-between mt-10">
+            <div className="px-4 lg:px-30 pt-4">
+                <div className="flex flex-wrap md:flex-nowrap justify-between mt-10">
                     <div className="flex flex-col">
                         <ul className='space-y-3 text-[19px] font-semibold mt-5'>
                             {QA.map((category, index) => (

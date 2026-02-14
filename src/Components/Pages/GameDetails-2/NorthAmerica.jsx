@@ -4,8 +4,8 @@ import LocationBox from './LocationBox'
 function NorthAmerica() {
     return (
         <div className='mt-4'>
-            <div className="grid grid-cols-[750px] gap-4">
-                <div className='grid grid-cols-4 gap-4'>
+            <div className="grid lg:grid-cols-[750px] gap-4">
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                      <LocationBox text={'Montreal, CAN'}/>
                      <LocationBox text={'Los Angeles, CA'}/>
                      <LocationBox text={'Chicago, IL'}/>

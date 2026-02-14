@@ -34,12 +34,12 @@ function Answer() {
     };
 
     return (
-        <div className='bg-dark h-150 text-white'>
-            <div className="flex mx-30 pt-30 ">
-                <div className="w-1/2 flex flex-col gap-4">
-                    <h1 className='text-5xl max-w-4xl font-bold'>Have Questions? We Have Answers!</h1>
+        <div className='bg-dark h-full lg:h-150 text-white'>
+            <div className="flex flex-wrap px-4 lg:px-30 pt-30 ">
+                <div className="lg:w-1/2 flex flex-col gap-4">
+                    <h1 className='text-3xl lg:text-5xl max-w-4xl font-bold'>Have Questions? We Have Answers!</h1>
                     <p className='text-[17px]'>Our main focus is on quality and making sure you have everything you need to succeed. It's like buying a car.</p>
-                    <div className="flex gap-5">
+                    <div className="flex flex-wrap gap-5">
                         <div className="group inline-block ">
                             <button className="relative overflow-hidden bg-gradient-to-r from-red-500  via-pink-400 to-purple-400 rounded-full px-6 py-4 text-white font-semibol">
                                 <a href="/contact"><span className="block transition-transform duration-300 group-hover:-translate-y-10">View FAQ</span>
@@ -54,7 +54,7 @@ function Answer() {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2 flex flex-col gap-4 p-4'>
+                <div className='w-full lg:w-1/2 flex flex-col gap-4 p-4 md:mt-10 lg:mt-0'>
                     {QA.map((item, index) => {
                         const isOpen = openIndex === index;
                         return (

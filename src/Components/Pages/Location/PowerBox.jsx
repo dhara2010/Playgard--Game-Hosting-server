@@ -2,7 +2,7 @@ import React from 'react'
 
 function PowerBox({img,title,text}) {
     return (
-        <div className="p-5 transition-shadow duration-300 ease-in-out hover:border hover:border-neutral-600 hover:[box-shadow:inset_0_0_20px_rgba(255,255,255,0.1)] rounded-xl  group relative">
+        <div className="p-5 transition-shadow duration-300 ease-in-out hover:border hover:border-neutral-600 hover:[box-shadow:inset_0_0_20px_rgba(255,255,255,0.1)] rounded-xl group relative">
             <img src={img} alt="" />
             <h1 className="mt-4 font-bold text-2xl">{title}</h1>
             <p className="mt-4">{text}</p>

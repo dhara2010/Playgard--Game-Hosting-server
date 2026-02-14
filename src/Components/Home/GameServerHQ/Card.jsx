@@ -9,7 +9,7 @@ function Card({ img }) {
                     <h1 className='text-xl font-bold'>Assassins Creed Valhalla</h1>
                     <p className='mt-4'>Our Assassins Creed Server Hosting plans begin at $11.99 are the perfect servers for you.</p>
                     <div className="flex items-center justify-center mt-8">
-                        <button className="flex items-center justify-center bg-white rounded-full w-12 h-12 shadow-lg hover:scale-110 transition-transform duration-300">
+                        <button className="flex items-center justify-center bg-white rounded-full lg:w-12 lg:h-12 shadow-lg hover:scale-110 transition-transform duration-300">
                            <a href="/gamedetails"><i className="fa-solid fa-arrow-right text-black text-lg"></i></a>
                         </button>
                     </div>

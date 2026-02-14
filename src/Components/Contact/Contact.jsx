@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       <Hero/>
-      <Answer/>
+      {/* <Answer/> */}
     </div>
   )
 }

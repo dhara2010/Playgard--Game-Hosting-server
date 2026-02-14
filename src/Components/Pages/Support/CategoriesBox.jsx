@@ -7,8 +7,8 @@ function CategoriesBox() {
                 <div className="flex justify-center items-center gap-4">
                     <img src="/images/pages/cat_thumb_1.webp" alt="" />
                     <div>
-                        <h1 className='text-2xl font-bold'>MineCraft</h1>
-                        <p>General Information & Troubleshooting for Minecraft Issues</p>
+                        <h1 className='text-xl lg:text-2xl font-bold'>MineCraft</h1>
+                        <p className='text-sm lg:txt-xl'>General Information & Troubleshooting for Minecraft Issues</p>
                     </div>
                 </div>
             </div>

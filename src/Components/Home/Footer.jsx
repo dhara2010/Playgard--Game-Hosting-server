@@ -5,10 +5,10 @@ function Footer() {
 
     return (
         <div className="bg-dark text-white py-10">
-            <div className="px-30">
-                <div className="border border-neutral-700 rounded-lg p-12">
-                    <div className="grid grid-cols-4 gap-8">
-                        <div className='w-80 p-2'>
+            <div className="px-4 lg:px-30">
+                <div className="border border-neutral-700 rounded-lg p-4 lg:p-12">
+                    <div className="grid grid-cols-1 md:gird-cols-3 lg:grid-cols-4 gap-8">
+                        <div className='lg:w-80 p-2'>
                             <img src="/images/footer_logo.webp" alt="Footer Logo" className="mb-4" />
                             <p className="font-semibold mb-4">
                                 We’re always in search for talented and motivated people. Don’t be shy, introduce yourself!
@@ -27,7 +27,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className='ml-16'>
+                        <div className='lg:ml-16'>
                             <h1 className="font-bold mb-2">Products & Solutions</h1>
                             <hr className='mb-8 w-13 bg-gradient-to-b to-red-400 from-purple-400 h-0.5 border-0 ' />
                             <ul className="space-y-2">
@@ -39,7 +39,7 @@ function Footer() {
                                 <li><Link to='/dadicatedserver' >Dadicated-server</Link></li>
                             </ul>
                         </div>
-                        <div className='ml-16'>
+                        <div className='lg:ml-16'>
                             <h1 className="font-bold mb-2">Playgard Feature</h1>
                             <hr className='mb-8 w-13 bg-gradient-to-b to-red-400 from-purple-400 h-0.5 border-0 ' />
                             <ul className="space-y-2">
@@ -51,7 +51,7 @@ function Footer() {
                                 <li><Link to='./support' >Support</Link></li>
                             </ul>
                         </div>
-                        <div className='ml-16'>
+                        <div className='lg:ml-16'>
                             <h1 className="font-bold mb-2">Company Links</h1>
                             <hr className='mb-8 w-13 bg-gradient-to-b to-red-400 from-purple-400 h-0.5 border-0 ' />
                             <ul className="space-y-2">
@@ -65,18 +65,20 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-between mt-6">
+                <div className="flex flex-wrap justify-between mt-6">
                     <div>
-                        <p className='text-[18px]'>© 2022 Hostingard. All rights reserved</p>
+                        <p className='text-xs lg:text-[18px]'>© 2022 Hostingard. All rights reserved</p>
                     </div>
-                    <div className='flex justify-between items-center gap-2'>
-                        <p className='text-[18px] mr-2'>We Accept Payment Gateway</p>
-                        <img src="./images/payment_1.webp" alt="" />
+                    <div className='flex flex-col lg:flex-row justify-between lg:items-center gap-2'>
+                        <p className='text-xs lg:text-[18px] lg:mr-2'>We Accept Payment Gateway</p>
+                       <div className='flex flex-wrap'>
+                         <img src="./images/payment_1.webp" alt="" />
                         <img src="./images/payment_2.webp" alt="" />
                         <img src="./images/payment_3.webp" alt="" />
                         <img src="./images/payment_4.webp" alt="" />
                         <img src="./images/payment_5.webp" alt="" />
                         <img src="./images/payment_6.webp" alt="" />
+                       </div>
                     </div>
                 </div>
             </div>

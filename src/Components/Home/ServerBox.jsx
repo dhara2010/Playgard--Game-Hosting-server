@@ -2,9 +2,9 @@ import React from 'react'
 
 function ServerBox({ img, head }) {
     return (
-        <div className='bg-dark min-h-[500px] py-20 text-white'>
-            <div className="flex justify-between">
-                <div className="h-96 relative group overflow-hidden w-1/2 mx-5">
+        <div className='bg-dark py-12 lg:py-20 p-4 text-white'>
+            <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
+                <div className="relative group overflow-hidden w-full lg:w-1/2 mx-5">
                     <div className="group-hover:opacity-0">
                         <img src="/images/service_slider_icon_1.webp" alt="icon" />
                         <h1 className='mt-4 text-3xl font-bold'>{head}</h1>
@@ -27,13 +27,13 @@ function ServerBox({ img, head }) {
                             <button className="relative overflow-hidden bg-gradient-to-r from-red-500 via-pink-400 to-purple-400 rounded-full px-6 py-2 text-white font-semibold h-10 w-32">
                                 <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 hover:-translate-y-full">Discover <i className="fa-solid fa-arrow-right ml-1"></i></span>
                                 <span className="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-300 hover:translate-y-0">Discover <i className="fa-solid fa-arrow-right ml-1"></i></span>
-                            </button>   
+                            </button>
                             <h1 className="text-6xl font-bold gradient-text">01</h1>
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2'>
-                    <img src={img} alt="image" className='h-96 w-150' />
+                <div className='w-full lg:w-1/2 flex justify-center'>
+                    <img src={img} alt="image" className='w-full max-w-md lg:max-w-full h-auto object-cover' />
                 </div>
             </div>
         </div>

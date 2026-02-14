@@ -6,16 +6,16 @@ function Include() {
     const [activeTab, setActiveTab] = useState('latest')
     
   return (
-    <div className='bg-dark min-h-[1700px] text-white'>
+    <div className='bg-dark min-h-[1700px] text-white pt-10'>
        <div className="flex flex-col justify-center items-center">
          <div className="w-50 bg-neutral-800 border border-neutral-700 text-red-400 px-6 py-2 rounded-full flex justify-center items-center">
             <span class="material-icons mr-2" style={{ fontSize: "18px" }}>grid_view</span>
             <p>What's Included?</p>
         </div>
-        <h1 className="text-white text-5xl max-w-3xl text-center font-serif font-bold mt-8">Available Games Servers for Rental</h1>
+        <h1 className="text-white text-3xl lg:text-5xl max-w-3xl text-center font-serif font-bold mt-8">Available Games Servers for Rental</h1>
        </div>
-       <div className="mt-14 mx-30">
-       <div className="flex justify-between text-[20px]">
+       <div className="mt-14 px-4 lg:px-30">
+       <div className="flex flex-wrap justify-between lg:text-[20px]">
         <div>
               <ul className='flex gap-4'>
               <li className={activeTab === 'latest' ? 'gradient-text pb-1 cursor-pointer' : 'cursor-pointer'}onClick={() => setActiveTab('latest')}>Latest Games</li>

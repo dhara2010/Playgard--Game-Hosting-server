@@ -3,7 +3,7 @@ import Box from './Box'
 
 function Europe() {
     return (
-        <div className='grid grid-cols-3 mt-8 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-5'>
             <Box img="/images/pages/flag_lg_1.webp" title={'US Dallas'} />
             <Box img="/images/pages/flag_lg_1.webp" title={'US Washington, D.C.'} />
             <Box img="/images/pages/flag_lg_1.webp" title={'US Bay Area'} />

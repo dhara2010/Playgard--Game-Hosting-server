@@ -14,7 +14,6 @@ import GameHosting from "./Components/Pages/GameHosting/GameHosting";
 import Blogs from "./Components/Blogs/Blogs";
 import BlogList from "./Components/Blogs/BlogList";
 import BlogDetails from "./Components/Blogs/BlogDetails/BlogDetails";
-import Header from "./Components/Home/Header";
 import MinecratServer from "./Components/Pages/MinecraftServer/MinecratServer";
 import About from "./Components/Pages/About/About";
 import GameServerHQ from "./Components/Home/GameServerHQ/GameServerHQ";
@@ -24,7 +23,6 @@ function App() {
   return (
     <>
      <ScrollToTop />
-    <Header/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -3,7 +3,7 @@ import React from 'react'
 function IncludeBox({ img, title }) {
     return (
         <div>
-            <div className="w-90 h-70 bg-dark border rounded-lg border-neutral-700 p-8 flex flex-col items-center">
+            <div className="w-full lg:w-90 h-70 bg-dark border rounded-lg border-neutral-700 p-8 flex flex-col items-center">
                 <div className="w-36 h-36 rounded-full overflow-hidden">
                     <img src={img} alt="" className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-140" />
                 </div>

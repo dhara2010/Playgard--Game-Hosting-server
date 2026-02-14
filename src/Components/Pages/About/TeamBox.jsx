@@ -14,7 +14,7 @@ function TeamBox({img}) {
                     <span className='text-2xl'>+</span>
                 </button>
             </div>
-            <img src={img} alt="" className='w-50 transition-all duration-500 ease-in-out group-hover:rounded-full' />
+            <img src={img} alt="" className='lg:w-50 transition-all duration-500 ease-in-out group-hover:rounded-full' />
             <h1 className='mt-4 font-bold'>Harry Brook</h1>
             <p className='text-neutral-300 font-semibold text-[14px]'>Web Developer</p>
         </div>

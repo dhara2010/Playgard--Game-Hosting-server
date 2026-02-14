@@ -3,10 +3,10 @@ import React from 'react'
 function Os() {
     return (
         <div className='bg-dark text-white'>
-            <div className="px-30 pb-30">
-                <div className="border rounded-xl border-neutral-600 p-8">
-                    <div className="flex justify-between items-center">
-                        <h1 className='text-5xl max-w-xl font-bold leading-tight mt-10'>Operating System Redefining Connectivity</h1>
+            <div className="px-4 lg:px-30 pb-30">
+                <div className="border rounded-xl border-neutral-600 p-4 lg:p-8">
+                    <div className="flex flex-wrap justify-between items-center">
+                        <h1 className='text-3xl lg:text-5xl max-w-xl font-bold leading-tight mt-10'>Operating System Redefining Connectivity</h1>
                         <div>
                             <p className='max-w-[35ch]'>Whether you’re taming ferocious building epic bases, or battling rival tribes.</p>
                             <div className="group inline-block mt-4 text-[14px]">
@@ -27,7 +27,7 @@ function Os() {
                                     "/images/pages/os_icon_4.webp",
                                     "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={i} src={src} alt="" className="h-18" />
+                                    <img key={i} src={src} alt="" className="h-10 lg:h-18" />
                                 ))}
                                 {[
                                     "/images/pages/os_icon_6.webp",
@@ -36,7 +36,7 @@ function Os() {
                                     "/images/pages/os_icon_4.webp",
                                     "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-18" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-10 lg:h-18" />
                                 ))}
                                 {[
                                     "/images/pages/os_icon_6.webp",
@@ -45,7 +45,7 @@ function Os() {
                                     "/images/pages/os_icon_4.webp",
                                     "/images/pages/os_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-18" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-10 lg:h-18" />
                                 ))}
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Os() {
                                     "/images/pages/os2_icon_4.webp",
                                     "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-25" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-15 lg:h-25" />
                                 ))}
                                 {[
                                     "/images/pages/os2_icon_6.webp",
@@ -71,7 +71,7 @@ function Os() {
                                     "/images/pages/os2_icon_4.webp",
                                     "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-25" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-15 lg:h-25" />
                                 ))}
                                 {[
                                     "/images/pages/os2_icon_6.webp",
@@ -82,7 +82,7 @@ function Os() {
                                     "/images/pages/os2_icon_4.webp",
                                     "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-25" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-15 lg:h-25" />
                                 ))}
                                 {[
                                     "/images/pages/os2_icon_6.webp",
@@ -93,7 +93,7 @@ function Os() {
                                     "/images/pages/os2_icon_4.webp",
                                     "/images/pages/os2_icon_5.webp",
                                 ].map((src, i) => (
-                                    <img key={`dup-${i}`} src={src} alt="" className="h-25" />
+                                    <img key={`dup-${i}`} src={src} alt="" className="h-15 lg:h-25" />
                                 ))}
                             </div>
                         </div>
